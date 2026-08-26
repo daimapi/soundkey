@@ -563,7 +563,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Socket"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -583,8 +583,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -615,7 +615,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -658,10 +658,22 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_Socket_1_1"
+			(symbol "Conn_01x02_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -683,6 +695,18 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -694,6 +718,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3677,7 +3719,7 @@
 	)
 	(rectangle
 		(start 123.19 73.66)
-		(end 195.58 120.65)
+		(end 231.14 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -3750,7 +3792,7 @@
 		(uuid "02efc6da-7629-4568-a52e-80a17378403d")
 	)
 	(junction
-		(at 39.37 102.87)
+		(at 44.45 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fd56e0d-cae3-403c-90c7-4969c4a793ab")
@@ -3816,7 +3858,7 @@
 		(uuid "a271086d-e354-45b0-a611-542253a2ed53")
 	)
 	(junction
-		(at 39.37 97.79)
+		(at 44.45 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac4ac12d-cdc2-48ad-9783-2e04a0451c68")
@@ -4023,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 39.37 107.95)
+			(xy 44.45 110.49) (xy 44.45 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4105,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 97.79) (xy 39.37 102.87)
+			(xy 44.45 105.41) (xy 44.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4145,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 92.71) (xy 39.37 92.71)
+			(xy 35.56 100.33) (xy 44.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4133,7 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 87.63) (xy 36.83 87.63)
+			(xy 35.56 95.25) (xy 41.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 92.71) (xy 39.37 97.79)
+			(xy 44.45 100.33) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4213,7 +4255,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 90.17) (xy 36.83 90.17)
+			(xy 35.56 97.79) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4263,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 157.48 111.76)
+			(xy 154.94 111.76) (xy 199.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4293,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 39.37 102.87)
+			(xy 48.26 110.49) (xy 44.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4330,6 +4372,16 @@
 			(type default)
 		)
 		(uuid "64419b67-7bd6-4fe2-9b4b-9c76c8391ec1")
+	)
+	(wire
+		(pts
+			(xy 199.39 97.79) (xy 199.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64db0dd3-42bf-47cf-bd8f-f684be434671")
 	)
 	(wire
 		(pts
@@ -4433,7 +4485,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 95.25) (xy 177.8 95.25)
+			(xy 167.64 95.25) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4553,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 43.18 95.25)
+			(xy 35.56 102.87) (xy 48.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 97.79) (xy 39.37 97.79)
+			(xy 35.56 105.41) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +4925,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 85.09) (xy 36.83 85.09)
+			(xy 35.56 92.71) (xy 41.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4932,7 +4984,7 @@
 		(uuid "0c886e9b-48c5-4a39-bbe9-897d047abe2b")
 	)
 	(label "SP+"
-		(at 36.83 85.09 180)
+		(at 41.91 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4942,7 +4994,7 @@
 		(uuid "150a76a1-a4cf-4c3d-a2b5-c1da68084b6b")
 	)
 	(label "GND"
-		(at 36.83 97.79 180)
+		(at 41.91 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5072,7 +5124,7 @@
 		(uuid "7d49ade3-2892-460f-a1d1-1a498189c6b3")
 	)
 	(label "BAT+"
-		(at 36.83 90.17 180)
+		(at 41.91 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,7 +5174,7 @@
 		(uuid "b17a1bf6-b585-49c3-a705-8cd924ce6ee8")
 	)
 	(label "SP-"
-		(at 36.83 87.63 180)
+		(at 41.91 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5142,7 +5194,7 @@
 		(uuid "badb07e5-89da-483b-9458-17c8c4a152a5")
 	)
 	(label "VBUS"
-		(at 36.83 95.25 180)
+		(at 41.91 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5162,7 +5214,7 @@
 		(uuid "cb082db9-9cbf-4137-ab39-a85095f7df64")
 	)
 	(label "BAT-"
-		(at 36.83 92.71 180)
+		(at 41.91 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5938,7 +5990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sensor_Audio:POM-2244P-C3310-2-R"
 			(at 121.92 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -6873,85 +6925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 182.88 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d380bdc-83ce-4dc1-81da-f31d58bfbff5")
-		(property "Reference" "J3"
-			(at 184.15 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "button+"
-			(at 184.15 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91300c53-62c3-4f85-aed5-94535d117f2b")
-		)
-		(instances
-			(project "soundkey"
-				(path "/6812b8ae-cf44-45f8-9db5-c868011a9c89"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:TP4057")
 		(at 97.79 55.88 0)
 		(unit 1)
@@ -7520,85 +7493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 162.56 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c591f5c3-2326-4dad-b159-8f9f765d0dbe")
-		(property "Reference" "J1"
-			(at 163.83 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "button-"
-			(at 163.83 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b180f2b5-49af-4f0c-a0ce-d00a60ea76e4")
-		)
-		(instances
-			(project "soundkey"
-				(path "/6812b8ae-cf44-45f8-9db5-c868011a9c89"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 111.76 111.76 0)
 		(unit 1)
@@ -7672,6 +7566,88 @@
 			(project "soundkey"
 				(path "/6812b8ae-cf44-45f8-9db5-c868011a9c89"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 204.47 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d742c0d3-acdc-4f9b-8a34-2733e6f48da1")
+		(property "Reference" "J1"
+			(at 205.74 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 205.74 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_KH"
+			(at 204.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 204.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4680610b-cc2a-4dc4-a15f-c89b21abd729")
+		)
+		(pin "2"
+			(uuid "88229a8b-420c-410a-b80e-19df06691d8f")
+		)
+		(instances
+			(project "soundkey"
+				(path "/6812b8ae-cf44-45f8-9db5-c868011a9c89"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 99.06 0)
+		(at 48.26 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7848,7 +7824,7 @@
 		(fields_autoplaced yes)
 		(uuid "df7fcee5-0824-4494-82b4-c9048da1ae97")
 		(property "Reference" "C1"
-			(at 46.99 97.7899 0)
+			(at 52.07 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7859,7 +7835,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 46.99 100.3299 0)
+			(at 52.07 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7870,7 +7846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.1452 102.87 0)
+			(at 49.2252 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,7 +7857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 99.06 0)
+			(at 48.26 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7868,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 99.06 0)
+			(at 48.26 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,7 +8011,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 25.4 92.71 180)
+		(at 30.48 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8045,7 +8021,7 @@
 		(dnp no)
 		(uuid "e76c75c1-f4e2-40de-b86e-c357ab60b8f9")
 		(property "Reference" "J2"
-			(at 28.956 78.486 0)
+			(at 34.036 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8055,7 +8031,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 28.956 81.026 0)
+			(at 34.036 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8065,7 +8041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 92.71 0)
+			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 92.71 0)
+			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +8063,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 25.4 92.71 0)
+			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +8181,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 39.37 107.95 0)
+		(at 44.45 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8215,7 +8191,7 @@
 		(dnp no)
 		(uuid "f185a9d8-acd1-4499-89de-d9c93f10ad92")
 		(property "Reference" "#PWR012"
-			(at 39.37 114.3 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8202,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 39.37 113.792 90)
+			(at 44.45 121.412 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 107.95 0)
+			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 107.95 0)
+			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 39.37 107.95 0)
+			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
