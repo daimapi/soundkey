@@ -1,0 +1,125 @@
+(footprint "Pad_7_1.5x2.0mm_G2.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD pad*7 oval1.5x2.0mm gap=2.5mm")
+	(tags "test point SMD pad 7")
+	(property "Reference" "REF**"
+		(at 0 -1.998 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f45f698b-2c68-4ff2-ae54-2b094adb9354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pad*7_1.5x2.0mm_G2.5mm"
+		(at 0 0.7 0)
+		(layer "F.Fab")
+		(uuid "b4e684de-cbdf-403f-8bc7-159e93613851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76df077e-5435-4f3f-b2be-50867beb5337")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a65ce33e-deaf-4d19-ad76-5bc1df8288c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.4 -1.1)
+		(end 8.4 1.1)
+		(radius 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6c909bae-5835-4700-afa3-2e473d3321d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "cbb2f2c4-1363-4c46-886e-ef443194c177")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -7.5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b3ac4e30-977d-4042-a124-8169f73b01a7")
+	)
+	(pad "2" smd oval
+		(at -5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "62c35cc8-a03c-4479-bc3e-88c2ec91fea6")
+	)
+	(pad "3" smd oval
+		(at -2.5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "62219f4c-c3e4-442f-ad9c-1b8a37660d00")
+	)
+	(pad "4" smd oval
+		(at 0 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "16a941a2-be30-4c1f-b692-22da06190113")
+	)
+	(pad "5" smd oval
+		(at 2.5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d31d752c-6c1b-427e-aeae-eb630d481f99")
+	)
+	(pad "6" smd oval
+		(at 5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5c41823c-eafc-4d16-b14e-3aced3669860")
+	)
+	(pad "7" smd oval
+		(at 7.5 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2d31c261-e91d-4c84-a8f5-994978f2b3e9")
+	)
+	(embedded_fonts no)
+)

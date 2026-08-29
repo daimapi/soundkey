@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "1_New_Library_0") (type "KiCad") (uri "${KIPRJMOD}/_1New_Library_0.kicad_sym") (options "") (descr ""))
 	(lib (name "_1New_Library_0") (type "KiCad") (uri "${KIPRJMOD}/_1New_Library_0.kicad_sym") (options "") (descr ""))
+	(lib (name "CMC-4015-40P") (type "KiCad") (uri "${KIPRJMOD}/CMC-4015-40P.kicad_sym") (options "") (descr ""))
 )
