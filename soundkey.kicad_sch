@@ -567,7 +567,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -25.4 90)
+					(at 2.54 -25.4 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -587,7 +587,6 @@
 				(pin power_in line
 					(at 0 -25.4 90)
 					(length 2.54)
-					(hide yes)
 					(name "GND_EP"
 						(effects
 							(font
@@ -6304,6 +6303,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 83.82) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588b89c3-d5ea-4ccc-ae0a-46605e1b0cef")
+	)
+	(wire
+		(pts
 			(xy 72.39 142.24) (xy 73.66 142.24)
 		)
 		(stroke
@@ -7281,6 +7290,16 @@
 			(type default)
 		)
 		(uuid "f84f1c57-83d9-4738-81a2-54c44a97a808")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c04348-8c2e-4046-b9ae-0bcb56117bfb")
 	)
 	(wire
 		(pts
@@ -11883,10 +11902,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f32b638-3da3-4bbe-a651-89ff932d7cff")
 		(property "Reference" "U1"
-			(at 225.6633 83.82 0)
+			(at 226.822 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11897,7 +11915,7 @@
 			)
 		)
 		(property "Value" "AVR32DU28x-xSTX"
-			(at 225.6633 86.36 0)
+			(at 226.822 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11907,7 +11925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "1_Library:VQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm_ThermalVias"
 			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
